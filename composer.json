@@ -1,0 +1,22 @@
+{
+    "name": "reelz222z/cryptotradeapp",
+    "description": "crypto purchase",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Reelz222z\\CryptoExchange\\": "CryptoExchange/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dinaz12"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+      "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.8",
+      "ext-readline": "*"
+    }
+}
